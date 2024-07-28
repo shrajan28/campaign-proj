@@ -39,7 +39,6 @@ const CampaignList = ({ campaignList }: { campaignList: Campaign[] }) => {
                 {" "}
                 <button className="text-blue-500 hover:underline">Edit</button>
               </Link>
-              <button className="text-red-500 hover:underline">Delete</button>
             </div>
           </div>
         ))}
